@@ -320,7 +320,7 @@ h4:hover span:nth-child(2){
 }
 
 h4:hover span {
-    color: rgb(255, 0, 0);
+    color: rgb(15, 97, 4);
     text-shadow: 0 0 15px #fff,
     0 0 25px #fff,
     0 0 45px #fff;
@@ -334,7 +334,7 @@ nav :hover span:nth-child(1){
 }
 
 nav :hover span:nth-child(1)::after{
-    content:"  see here";
+    content:" ";
 }
 
 nav:hover span:nth-child(2){

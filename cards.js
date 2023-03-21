@@ -22,3 +22,7 @@ fetch(URL_API)
         `;
     }
   });
+
+  function name(params) {
+    
+  }

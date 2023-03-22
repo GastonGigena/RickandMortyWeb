@@ -71,6 +71,11 @@ article {
     border-radius: 10px;
 }
 
+main article img{
+width: 240px;
+height: auto;
+}
+
 .episodes a {
     border-radius: 10px;
     padding: 10px;
@@ -339,4 +344,16 @@ nav :hover span {
     text-shadow: 0 0 15px #fff,
         0 0 25px #fff,
         0 0 45px #fff;
+}
+
+@media screen and (max-width: 480px){
+    #header{
+        height: auto;
+    }
+    #main{
+        width: auto;
+    }
+    #barra_lateral{
+        display:none;
+    }
 }
